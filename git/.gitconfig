@@ -1,0 +1,9 @@
+[user]
+	name = Mykhailo Hnap
+	email = mike.gnap.r@gmail.com
+
+[pull]
+	rebase = true
+
+[rerere]
+	enabled = true
