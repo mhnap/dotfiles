@@ -193,17 +193,24 @@
 			]
 		}
 	},
+	"explorer.confirmDelete": false,
 	"files.autoSave": "afterDelay",
+	"files.watcherExclude": {
+		"target/**": true
+	},
+	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"githubPullRequests.pullBranch": "never",
 	"gitlens.codeLens.enabled": false,
 	"gitlens.currentLine.enabled": false,
 	"rust-analyzer.check.allTargets": false,
+	"rust-analyzer.check.workspace": false,
 	"rust-analyzer.checkOnSave": false,
 	"rust-analyzer.lens.implementations.enable": false,
 	"rust-analyzer.semanticHighlighting.operator.enable": false,
 	"search.showLineNumbers": true,
 	"security.promptForLocalFileProtocolHandling": false,
+	"security.workspace.trust.untrustedFiles": "open",
 	"window.menuBarVisibility": "hidden",
 	"window.newWindowDimensions": "fullscreen",
 	"window.restoreFullscreen": true,
