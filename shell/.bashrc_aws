@@ -1,0 +1,12 @@
+# Add `AWS_PROFILE` env var to PS1.
+aws_profile() {
+    if [ -n "$AWS_ACCESS_KEY_ID" ]; then
+        printf "\033[0;33m[key]\033[0m"
+    elif [ -n "$AWS_PROFILE" ]; then
+        printf "\033[0;35m[%s]\033[0m" "$AWS_PROFILE"
+    fi
+}
+PS1='$(aws_profile)'"$PS1"
+
+# Add AWS CLI autocompletion.
+complete -C "/usr/local/bin/aws_completer" aws

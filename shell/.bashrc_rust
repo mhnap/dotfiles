@@ -1,0 +1,2 @@
+# Limit cargo to one error message by using <https://github.com/cargo-limit/cargo-limit>.
+export CARGO_MSG_LIMIT=1
